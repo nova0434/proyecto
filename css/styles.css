@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+header {
+    background: #af599e;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fbfbfb;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background: #eca023;
+  }
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.sol {
+
+    display: flex;
+  justify-content: center;
+  
+
+}
+img {
+    border-radius: 50%;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+dl {
+  
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 3%;
+    background-size: 80%;
+   
+    
+}
+h2  {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  
+}
+h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+h4 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  
+  background-color:#af599e;
+  background-size: 50% ;
+  color: #FFF;
+    
+    margin: auto;
+    border-radius: 20px;
+    width:max-content; 
+    padding:2px 20px;
+
+}
+p {
+  font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+    text-align: center;
+    margin-top:  20px;
+    margin-bottom: 20px;
+    margin: 10px;
+
+  }
+  .gh{
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+  .lkd{
+    margin-right: 10%;
+  }
+  .ml{
+    margin-right: 15%;
+  }
+  #op {
+    float:middle;
+    background: #af599e;
+  }
